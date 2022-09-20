@@ -1,9 +1,5 @@
 div {
-  height: 100px;
-  width: 100px;
   display: inline-block;
-  border: 1px solid black;
-  margin: 2px;
 }
 
 span {
@@ -11,6 +7,4 @@ span {
   height: 100px;
   width: 200px;
   background-color: yellow;
-  border: 1px solid black;
-  margin: 2px;
 }
