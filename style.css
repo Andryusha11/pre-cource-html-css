@@ -1,11 +1,16 @@
-.main-page {
-  font-size: 24px;
+div {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 2px;
 }
 
-p {
-  color: green;
-}
-
-li {
-  color: orange;
+span {
+  display: block;
+  height: 100px;
+  width: 200px;
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 2px;
 }
