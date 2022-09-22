@@ -1,0 +1,19 @@
+.layout {
+  padding: 50px;
+  border: 2px solid black;
+}
+.first {
+  margin: 50px;
+  background-color: blue;
+}
+.second {
+  background-color: yellow;
+}
+
+.third {
+  background-color: green;
+}
+
+.fourth {
+  background-color: pink;
+}
