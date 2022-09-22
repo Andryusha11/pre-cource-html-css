@@ -20,7 +20,8 @@ ul {
 .nav-item {
   display: inline-block;
   color: white;
-  margin-left: 14px;
+  margin-left: 16px;
+  margin-right: -6px;
   line-height: 2.5;
 }
 .content {
