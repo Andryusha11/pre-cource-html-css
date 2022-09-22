@@ -2,21 +2,21 @@
   box-sizing: border-box;
 }
 .rectangle {
-  background-color: green;
+  background-color: forestgreen;
   margin: 50px;
   height: 50px;
   width: 100px;
   border-radius: 16px;
 }
 .oval {
-  background-color: blueviolet;
+  background-color: darkmagenta;
   margin: 50px;
   height: 50px;
   width: 100px;
   border-radius: 50%;
 }
 .circle {
-  background-color: aqua;
+  background-color: aquamarine;
   margin: 50px;
   height: 100px;
   width: 100px;
@@ -27,5 +27,5 @@
   height: 100px;
   width: 100px;
   border: 50px solid transparent;
-  border-top-color: firebrick;
+  border-top-color: brown;
 }
