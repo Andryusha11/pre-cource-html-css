@@ -1,20 +1,27 @@
 * {
   box-sizing: border-box;
 }
+ul {
+  margin: 0;
+}
 .header {
   background-color: darkturquoise;
   height: 40px;
+  width: 100%;
+  position: fixed;
 }
 .navigation {
   height: 40px;
+  width: 100%;
+  position: fixed;
 }
 .nav-list {
-  line-height: 40px;
 }
 .nav-item {
-  display: inline;
-  margin-left: 16px;
+  display: inline-block;
   color: white;
+  margin-left: 16px;
+  line-height: 2.5;
 }
 .content {
   background-color: beige;
