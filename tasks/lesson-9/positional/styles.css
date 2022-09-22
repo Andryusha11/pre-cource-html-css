@@ -3,7 +3,9 @@
 }
 ul {
   margin: 0;
+  list-style-type: none;
 }
+
 .header {
   background-color: darkturquoise;
   height: 40px;
@@ -18,7 +20,8 @@ ul {
 .nav-list {
 }
 .nav-item {
-  display: inline-block;
+  float: left;
+  width: auto;
   color: white;
   margin-left: 16px;
   line-height: 2.5;
