@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  background-color: darkturquoise;
+  height: 40px;
+}
+.navigation {
+  height: 40px;
+}
+.nav-list {
+  line-height: 40px;
+}
+.nav-item {
+  display: inline;
+  margin-left: 16px;
+  color: white;
+}
+.content {
+  background-color: beige;
+  height: 5000px;
+}
+.head {
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: calc(50% - 200px / 2);
+  top: calc(50% - 200px / 2);
+}
+.ear {
+  width: 40px;
+  height: 60px;
+  background-color: brown;
+  position: relative;
+}
+.ear_right {
+  float: right;
+  right: -40px;
+  top: -60px;
+}
+.ear_left {
+  float: left;
+  left: -40px;
+  top: -60px;
+}
+.eye {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: grey;
+  position: relative;
+}
+.eye_right {
+  float: right;
+  top: calc(50% - 30px / 2);
+}
+.eye_left {
+  float: left;
+  top: calc(50% - 30px / 2);
+}
