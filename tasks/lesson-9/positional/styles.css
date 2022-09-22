@@ -63,9 +63,9 @@ ul {
 }
 .eye_right {
   float: right;
-  top: calc(50% - 30px / 2);
+  margin-top: 80px;
 }
 .eye_left {
   float: left;
-  top: calc(50% - 30px / 2);
+  margin-top: 80px;
 }
