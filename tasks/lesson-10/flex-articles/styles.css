@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .header {
   display: flex;
   justify-content: center;
@@ -12,4 +15,5 @@
   background-color: bisque;
   flex-basis: 300px;
   flex-grow: 1;
+  flex-shrink: 1;
 }
