@@ -1,10 +1,13 @@
+::-webkit-scrollbar {
+  display: none;
+}
 * {
   box-sizing: border-box;
 }
 .gallery {
   display: inline-block;
   white-space: nowrap;
-  overflow: auto;
+  overflow: scroll;
   cursor: all-scroll;
 }
 .thumb {
