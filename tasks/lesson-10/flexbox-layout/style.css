@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+
+ul {
+  padding: 0;
+}
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -44,7 +48,6 @@
   margin: 16px 0;
 }
 .aside__list {
-  padding: 0;
 }
 .aside__item {
   height: 40px;
