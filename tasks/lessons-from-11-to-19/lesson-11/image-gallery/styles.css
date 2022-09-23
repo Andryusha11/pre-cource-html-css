@@ -4,6 +4,7 @@
 .gallery {
   display: inline-block;
   white-space: nowrap;
+  overflow: auto;
   cursor: all-scroll;
 }
 .thumb {
