@@ -2,9 +2,10 @@
   box-sizing: border-box;
 }
 .gallery {
-  display: flex;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: all-scroll;
 }
 .thumb {
   margin: 8px;
-  cursor: all-scroll;
 }
