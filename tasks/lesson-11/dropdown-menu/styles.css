@@ -4,7 +4,6 @@
 .dropdown {
   display: inline-block;
   margin: 16px;
-  padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
   color: white;
@@ -14,10 +13,16 @@
 .dropdown:hover {
   opacity: 1;
 }
+
+.menu-button {
+  display: inline-block;
+  padding: 16px;
+}
 .menu-list {
   display: none;
   position: absolute;
   padding: 0;
+  margin: 0;
   list-style-type: none;
   background-color: lightcyan;
   color: black;
