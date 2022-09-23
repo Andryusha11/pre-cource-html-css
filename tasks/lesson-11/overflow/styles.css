@@ -1,0 +1,19 @@
+.articles > div {
+  height: 100px;
+  width: 150px;
+  background-color: beige;
+  margin: 16px;
+  display: inline-block;
+}
+.visible-text {
+  overflow: visible;
+}
+.cropped {
+  overflow: hidden;
+}
+.both-scrolls {
+  overflow: scroll;
+}
+.vertical-scroll {
+  overflow: auto;
+}
