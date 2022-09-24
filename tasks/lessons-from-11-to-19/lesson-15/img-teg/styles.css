@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .image-container {
   margin: 50px;
 }
