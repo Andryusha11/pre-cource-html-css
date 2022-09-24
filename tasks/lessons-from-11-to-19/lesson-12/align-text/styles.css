@@ -1,15 +1,15 @@
+* {
+  box-sizing: border-box;
+}
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-header {
-  font-size: 74px;
 }
 h1 {
   width: 50%;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  font-size: 74px;
 }
 div {
   height: 200px;
