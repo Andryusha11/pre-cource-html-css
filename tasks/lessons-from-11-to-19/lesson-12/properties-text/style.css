@@ -16,7 +16,7 @@ p {
 }
 span {
   letter-spacing: 3px;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 24px;
   opacity: 0.8;
   text-decoration: underline;
