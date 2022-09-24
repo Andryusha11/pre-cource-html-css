@@ -10,3 +10,7 @@ ul {
   line-height: 32px;
   padding: 8px;
 }
+
+.properties-list__item {
+  padding: 8px;
+}
