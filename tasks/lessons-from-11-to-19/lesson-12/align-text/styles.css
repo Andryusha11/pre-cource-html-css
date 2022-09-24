@@ -5,6 +5,7 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
+  text-align: center;
   width: 50%;
   text-overflow: ellipsis;
   overflow: hidden;
