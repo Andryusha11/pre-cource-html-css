@@ -4,8 +4,8 @@
 .gallery {
   display: inline-block;
   white-space: nowrap;
+  width: 100%;
   overflow: auto;
-  cursor: all-scroll;
 }
 .thumb {
   margin: 8px;
