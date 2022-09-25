@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .image-container {
-  margin: 50px;
+  margin: 50px 0;
 }
 .image-teg {
   display: block;
