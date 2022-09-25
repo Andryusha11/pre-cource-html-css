@@ -5,6 +5,7 @@
 .page {
   background-color: bisque;
   display: flex;
+  height: 100vh;
 }
 .login-form {
   background-color: aqua;
