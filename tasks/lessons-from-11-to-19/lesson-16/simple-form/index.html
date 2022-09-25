@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div><input type="text" name="lastName" value="Emerson" /></div>
+      <div><input type="number" name="age" value="17" /></div>
+      <div>
+        <input id="checkbox-agree" type="checkbox" name="agree" />
+        <label for="checkbox-agree">Accept terms and conditions</label>
+      </div>
+      <div class="choose-gender">
+        <input type="radio" name="gender" id="radio-male" checked />
+        <label for="radio-male">Male</label>
+        <input type="radio" name="gender" id="radio-female" />
+        <label for="radio-female">Female</label>
+        <input type="radio" name="gender" id="radio-secret" />
+        <label for="radio-secret">Secret</label>
+      </div>
+      <div>
+        <textarea
+          name="description"
+          placeholder="Write description..."
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
