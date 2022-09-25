@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+.big-form {
+  margin: 32px;
+}
+input,
+textarea {
+  margin: 8px;
+}
