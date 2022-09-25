@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+.image-button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-color: bisque;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+.image-button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
