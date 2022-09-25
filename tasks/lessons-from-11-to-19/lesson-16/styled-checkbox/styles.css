@@ -22,5 +22,5 @@ input {
   background-color: #d3d3d3;
 }
 .checkbox input:checked + .checkmark {
-  background-color: green;
+  background-color: #006400;
 }
