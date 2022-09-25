@@ -4,9 +4,6 @@
 .big-form {
   margin: 32px;
 }
-input,
-textarea,
-button,
-select {
+div {
   margin: 8px;
 }
