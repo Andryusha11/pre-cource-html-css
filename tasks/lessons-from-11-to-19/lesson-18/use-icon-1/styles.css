@@ -23,7 +23,7 @@
 }
 
 .main-button:hover {
-  background-color: darkcyan;
+  color: darkcyan;
 }
 svg {
   overflow: visible;
