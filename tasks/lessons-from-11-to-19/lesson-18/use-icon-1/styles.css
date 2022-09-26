@@ -25,12 +25,3 @@
 .main-button:hover {
   color: darkcyan;
 }
-svg {
-  overflow: visible;
-}
-.fa-sharp {
-  height: 32px;
-  width: 32px;
-  vertical-align: middle;
-  fill: white;
-}
