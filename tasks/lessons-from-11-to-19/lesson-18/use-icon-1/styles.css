@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+.main-button {
+  margin: 64px;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  background-color: coral;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  cursor: pointer;
+}
+.bird {
+  height: 32px;
+  width: 32px;
+  vertical-align: middle;
+  fill: white;
+}
+
+.main-button:hover {
+  background-color: darkcyan;
+}
