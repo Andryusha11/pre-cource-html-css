@@ -20,8 +20,12 @@
   height: 32px;
   width: 32px;
   vertical-align: middle;
+  fill: white;
 }
 
 .main-button:hover {
   color: darkcyan;
+}
+.main-button:hover .bird {
+  fill: darkcyan;
 }
