@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+}
+.fancy-button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(45deg, yellow, red);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: jump 0.5s 0.4s ease-in-out, turn 0.5s ease-in-out,
+    hide 1s 2s ease forwards;
+  margin: auto;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes turn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes hide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(2000px);
+  }
+}
