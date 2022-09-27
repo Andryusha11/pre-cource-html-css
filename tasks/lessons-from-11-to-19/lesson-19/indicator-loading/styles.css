@@ -35,8 +35,6 @@
   text-transform: uppercase;
   font-family: monospace;
   position: relative;
-}
-.spinner-text {
   animation: blinking 2s linear;
   animation-iteration-count: infinite;
 }
@@ -46,7 +44,7 @@
   border-radius: 2px;
   position: absolute;
   background-color: black;
-  animation: blinking 2s linear, moving 2s;
+  animation: moving 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
