@@ -46,7 +46,7 @@
   border-radius: 2px;
   position: absolute;
   background-color: black;
-  animation: blinking 2s linear, moving 2s linear;
+  animation: blinking 2s linear, moving 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
