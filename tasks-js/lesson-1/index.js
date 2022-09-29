@@ -262,3 +262,23 @@
 // console.log(isFalsy);
 // console.log(isNotTrue);
 // console.log(isTrue);
+
+// // put your code here
+// const n = 101;
+// let sum = 0;
+
+// for (let i = 0; i <= n; i++) {
+//   sum += i;
+//   console.log('Result:' + sum);
+// }
+
+// put your code here
+const m = 1;
+const n = 8;
+let result = 1;
+
+for (let i = m; i <= n; i++) {
+  if (i % 2 === 1) result *= i;
+}
+
+console.log(result);
