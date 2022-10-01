@@ -7,21 +7,36 @@
 }
 .products {
 }
-.block {
+/* .block {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+} */
+.navigation {
+  background-color: #ff7f50;
   min-height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
 }
-.navigation {
-  background-color: #ff7f50;
-}
 .products-list {
   background-color: #006400;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 .news {
   background-color: #0ff;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 span {
   text-transform: lowercase;
