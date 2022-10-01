@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+picture {
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
