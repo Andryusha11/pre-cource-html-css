@@ -1,4 +1,4 @@
-/* * {
+* {
   box-sizing: border-box;
 }
 html,
@@ -9,30 +9,32 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-} */
-/* .header {
-  color: #fff;
+}
+.header {
   background: linear-gradient(60deg, red, orange);
   text-align: center;
-} */
-/* .main {
+}
+h1 {
+  color: #fff;
+}
+.main {
   flex: 1 1 auto;
   display: flex;
-} */
-/* .navigation {
+}
+.navigation {
   padding: 0.5em;
   width: 20%;
-} */
-/* .nav-list {
+}
+.nav-list {
   list-style-type: none;
   padding: 0;
-} */
-/* .nav-list-item {
+}
+.nav-list-item {
   background-color: #808080;
   line-height: 2em;
   color: #fff;
   margin-bottom: 0.5em;
-} */
+}
 .nav-list-link {
   display: block;
   text-decoration: none;
@@ -43,30 +45,30 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-/* .section {
+.section {
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
-} */
-/* .section__header {
+}
+.section__header {
   font-size: 5vw;
   text-align: center;
-} */
-/* .units-list {
+}
+.units-list {
   line-height: 1.75em;
-} */
-/* .css-units {
+}
+.css-units {
   color: #8b0000;
   background-color: #e5e5e5;
   font-size: 1.125em;
   font-weight: 700;
-} */
-/* .news {
+}
+.news {
   padding: 0.5em;
   width: 20%;
-} */
-/* .footer {
+}
+.footer {
   padding: 0.5em;
   background-color: #e5e5e5;
   text-align: center;
-} */
+}
